@@ -1,6 +1,7 @@
 *{
   
   font-family: 'Montserrat', sans-serif;
+  
 }
 
 h1 {
@@ -58,7 +59,7 @@ body {
 }
 
 .hero-title {
-    font-size: 5.6rem;
+    font-size: 8vw;
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: center;
@@ -68,7 +69,7 @@ body {
     display: flex;
     text-align: left;
     padding: 0rem 5.6rem;
-	margin-bottom: 0;
+     margin-bottom: 0;
 }
 
   
@@ -424,6 +425,68 @@ a.wrapper3{
 }
 
 
+
+
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+  margin-top:10px;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 6px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+
+    
+
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  margin: 0px 20px;
+  width: 400px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 
 
 
