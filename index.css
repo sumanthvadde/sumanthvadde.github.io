@@ -59,7 +59,7 @@ body {
 }
 
 .hero-title {
-    font-size: 8vw;
+    font-size: 10vw;
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: center;
@@ -430,9 +430,11 @@ a.wrapper3{
 
 /* Center website */
 .main {
-  max-width: 1000px;
+  max-width: 100%;
   margin: auto;
   margin-top:10px;
+  align-items: center;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -453,10 +455,7 @@ h1 {
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33%;
-
-    
-
+  width: 50%;
 }
 
 /* Clear floats after rows */ 
@@ -471,7 +470,8 @@ h1 {
   background-color: white;
   padding: 10px;
   margin: 0px 20px;
-  width: 400px;
+  width: 600px;
+ 
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -487,6 +487,9 @@ h1 {
     width: 100%;
   }
 }
+
+
+
 
 
 
