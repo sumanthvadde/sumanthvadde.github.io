@@ -59,10 +59,21 @@ body {
 }
 
 .hero-title {
-    font-size: 10vw;
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: center;
+}
+
+@media screen and (min-width: 601px) {
+  div.hero-title {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.hero-title {
+    font-size: 30px;
+  }
 }
 
 .hero-cta {
@@ -469,9 +480,7 @@ h1 {
 .content {
   background-color: white;
   padding: 10px;
-  margin: 0px 20px;
- 
- 
+  margin: 0px 5px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
