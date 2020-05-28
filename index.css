@@ -67,13 +67,13 @@ body {
 
 @media screen and (min-width: 601px) {
   div.hero-title {
-    font-size: 100px;
+    font-size: 70px;
   }
 }
 
 @media screen and (max-width: 600px) {
   div.hero-title {
-    font-size: 30px;
+    font-size: 35px;
   }
 }
 
