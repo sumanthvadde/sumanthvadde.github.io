@@ -63,17 +63,18 @@ body {
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: center;
+    white-space: nowrap
 }
 
 @media screen and (min-width: 601px) {
   div.hero-title {
-    font-size: 70px;
+    font-size: 12vw;
   }
 }
 
 @media screen and (max-width: 600px) {
   div.hero-title {
-    font-size: 35px;
+    font-size: 8vw;
   }
 }
 
