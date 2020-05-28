@@ -537,11 +537,12 @@ h1 {
 
 .overlay a:hover, .overlay a:focus {
   color: #f1f1f1;
+   text-decoration: none;
 }
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 45px;
   font-size: 60px;
   transition: 0.3s;
