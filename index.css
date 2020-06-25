@@ -382,6 +382,7 @@ a.wrapper1{
   border: 2px solid #333;
   letter-spacing: 2px;
   text-align: center;
+  text-decoration: none;
   position: relative;
   transition: all .35s;
 }
@@ -392,7 +393,6 @@ a.wrapper1{
   left: 10%;
   transform: translate(-50%, -50%);
   margin:40px;
-  
 }
 
 a.wrapper2{
@@ -467,7 +467,7 @@ h1 {
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 50%;
+  width: 33%;
 }
 
 /* Clear floats after rows */ 
