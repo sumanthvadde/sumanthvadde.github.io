@@ -63,35 +63,25 @@ body {
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: center;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 @media screen and (min-width: 601px) {
   div.hero-title {
-    font-size: 12vw;
+    font-size: 16vw;
   }
 }
 
 @media screen and (max-width: 600px) {
   div.hero-title {
-    font-size: 8vw;
+    font-size: 10vw;
   }
 }
 
-.hero-cta {
-    display: flex;
-    text-align: left;
-    padding: 0rem 5.6rem;
-     margin-bottom: 0;
-}
-
   
-
-
-
 #about {
-  
-  height: 10%;
+  min-height: 100vh;
+  height: 100vh;
   border-top: 0px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -247,7 +237,7 @@ a.social-links {
     justify-content: center;
     color: #000428;
     transition: all 0.2s ease-in;
-    padding-right: :10px 10px;
+    padding-right:10px 10px;
 }
 
 
@@ -298,6 +288,7 @@ i.back-to-top  {
   left:50%;
 
 }  
+
 .fa-angle-up{
   color:#FFFFFF;
   left:90%;
@@ -306,7 +297,7 @@ i.back-to-top  {
   padding: 10px
 }
 .fa-angle-down{
-  color:#FFFFFF;
+  color:black;
   left:90%;
   margin:10px 10px;
   border:10px;
