@@ -68,20 +68,19 @@ body {
 
 @media screen and (min-width: 601px) {
   div.hero-title {
-    font-size: 16vw;
+    font-size: 8rem;
   }
 }
 
 @media screen and (max-width: 600px) {
   div.hero-title {
-    font-size: 10vw;
+    font-size: 4rem;
   }
 }
 
   
 #about {
   min-height: 100vh;
-  height: 100vh;
   border-top: 0px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -474,6 +473,8 @@ h1 {
   padding: 10px;
   margin: 0px 5px;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

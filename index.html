@@ -50,11 +50,11 @@
   <button class="btn" style="font-size:30px;cursor:pointer; ; background-color: white; margin-top: 10px; float:right" onclick="openNav()"><i class="fa fa-bars"></i></button>
 
 
-    <div id="hero" class="jumbotron" style="display: flex; justify-content: center; align-items: center;">
+  <div id="hero" style="display: flex; justify-content: center; align-items: center;">
   <div class="container">
-    <h1 class="hero-title">
+    <p class="hero-title" style="font-size:48px;">
       Hi, I'm Sumanth
-    </h1>
+    </p>
     <p style="text-align: center;">
       <a class="wrapper1" href="#about">Know more</a>
     </p>
@@ -72,8 +72,8 @@
             <div class="about-wrapper__image">
               <img
                 class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="500px"
+                height="50%"
+                width="100%"
                 src="./assets/Profile.jpeg"
                 alt="Profile Image"
               />
@@ -105,48 +105,47 @@
     </section>
 
 
-<div id="exp"></div>
-<h2 class="section-title dark-blue-text" style="margin-top: 30px ; margin-bottom: 0px ; text-align:center; letter-spacing:2px">Experience</h2>
+<div id="exp""></div>
+<h2 class="section-title dark-blue-text" style="margin-top: 10rem; margin-bottom: 0px ; text-align:center; letter-spacing:2px">Experience</h2>
+<div class="container">
 <div class="main">
 <div class="row">
-  <div class="column">
+  <div class="col-lg-4 col-sm-8">
     <div class="content">
-    <div data-tilt class="thumbnail rounded"><img src="./assets/Keck.jpg" style="width:250px; height:250px"></div>
+    <div><img src="./assets/Keck.jpg" style="width:350px; height:350px"></div>
       <h3>Keck Medicine of USC, Los Angeles</h3>
       <h4> February 2023 - Present | Application Developer - Student Worker</h4>
       <p> Working with Keck Information Services - Infrastructure team to put together a workflow management tool for managing services on AWS</p>
     </div>
   </div>
-  <div class="column">
+  <div class="col-lg-4 col-sm-8"">
     <div class="content">
-    <div data-tilt class="thumbnail rounded"><img src="./assets/Amadeus.jpeg" style="width:250px; height:250px"></div>
+    <div><img src="./assets/Amadeus.jpeg" style="width:350px; height:350px"></div>
       <h3>Amadeus Labs, Bengaluru</h3>
       <h4> January 2021 - July 2022 | Software Development Engineer</h4>
       <p> Worked on Push to Customs product. Developed internal tools as full-stack developer</p>
     </div>
   </div>
-  <div class="column">
+
+  <div class="col-lg-4 col-sm-8">
     <div class="content">
-    <div data-tilt class="thumbnail rounded"><img src="./assets/Tech.jpg" style= "width:250px ; height:250px"></div>
+    <div><img src="./assets/aptean.jpg" style= "width:350px ; height:350px"></div>
       <h3>TechVedika, Hyderabad</h3>
       <h4> May 2019 - June 2019 | SDE Intern</h4>
       <p>Developed a flask API to detect license plate characters.
         Performed connected component analysis and applied 
         machine learning algorithm to test the component.</p>
     </div>
+     
   </div>
 <!-- END GRID -->
 </div>
-
-
 <!-- END MAIN -->
+</div>
 </div>
 
 
-
-
-
-<div id= "pro"></div>
+<div id="pro"></div>
   <section id="projects">
       <div class="container">
         <div class="project-wrapper">
@@ -187,6 +186,61 @@
             </div>
           </div>
 
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Event Master</h3>
+                <div>
+                  <p class="mb-4">
+                    Developed a responsive React User Interface ( UI ) to lookup events using TicketMaster, Spotify and Google Maps API.
+                    Deployed the app on AWS using Elastic BeanStalk which scales the app as per the number of request received.
+                    <p>
+                    </p>
+                    
+                  </p>
+                </div>
+                <a target="_blank" class="wrapper2" href="http://hw8csci571-env.eba-kfwmvcr2.us-west-2.elasticbeanstalk.com/search">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/EventMaster.png" />
+                  </div>
+              
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Dev Connect</h3>
+                <div>
+                  <p class="mb-4">
+                   Dev Connect is a social networking platform created using the MERN stack. Upon registration, users have the ability to post diverse types of content such as images, videos, and documents on their personal social feed. 
+                   The platform also features a follower/following system, enabling users to engage with each other's shared content.
+                  </p>
+                </div>
+                <a target="_blank" class="wrapper2" href="https://github.com/sumanthvadde/Glaucoma-Detection">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/Dev.png" />
+                  </div>
+              
+              </div>
+            </div>
+          </div>
 
       
 
@@ -194,20 +248,18 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Video Games Sales Analysis</h3>
+                <h3 class="project-wrapper__text-title">Vigilante</h3>
                 <div>
                   <p class="mb-4">
-                    Used map-reduce programming model to implement
-                    complex queries on a large dataset. Also analysed the performance of various regression techniques.
+                    A real time distributed service to identify to credit card fraud based on the conditions such as location of purchase, amount, statiscally invariant purchases, overlimit transactions
                   </p>
                   <p>
-                    Performed data cleaning and data analysis using visualization tools.Then analysed the performance of various 
-                    regression techniques for proediction of global sales of video games. 
+                    Used websockets, Kafka, React, Go Lang and Apache Java.
                   </p>
 
                 </div>
     			<div>
-    				<a target="_blank" class="wrapper2" href="https://github.com/sumanthvadde/Sales-Data-Analysis">
+    				<a target="_blank" class="wrapper2" href="https://github.com/sumanthvadde/vigilante">
                   Source Code
                 </a>
     			</div>
@@ -217,23 +269,11 @@
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/Big-Data.jpg">
+                    <img class="img-fluid" src="./assets/Architecture.png">
               </div>
             </div>
           </div>
-
-
-
-
-
         </section>
-
-
-
-
-
-
-
 
 
     <section id="contact">
